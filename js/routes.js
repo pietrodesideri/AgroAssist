@@ -55,7 +55,7 @@ var routes = [
     name: 'login',
   },
   // Sign up
-  {
+ {
     path: '/signup/',
     url: './pages/signup.html',
     name: 'signup',

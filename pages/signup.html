@@ -1,54 +1,83 @@
-<div class="page no-navbar login-form">
-	<div class="page-content">
+<!DOCTYPE html>
+<html>
+	<head>
 		
-		<div class="block">
-		
-		<div class="title-page">
-			<div class="title-page-with-link">
-				<h1>Sign up to Farm Assist  </h1>
-			</div>
-		</div>
+	</head>
+
+	<body>
 			
-		<div class="list no-hairlines">
-			<ul>
-				<li class="item-content item-input">
-					<div class="item-inner">
-						<div class="item-input-wrap">
-							<input placeholder="Full Name" class="" type="text">
-							<span class="input-clear-button"></span>
-						</div>
+
+		<div class="page no-navbar login-form" id="register">
+			<div class="page-content">
+				
+				<div class="block">
+				
+				<div class="title-page">
+					<div class="title-page-with-link">
+						<h1>Sign up to Farm Assist  </h1>
 					</div>
-				</li>
-				<li class="item-content item-input">
-					<div class="item-inner">
-						<div class="item-input-wrap">
-							<input placeholder="Email Adresse" class="" type="email">
-							<span class="input-clear-button"></span>
-						</div>
-					</div>
-				</li>
-				<li class="item-content item-input">
-					<div class="item-inner">
-						<div class="item-input-wrap">
-							<input placeholder="Password" class="" type="password">
-							<span class="input-clear-button"></span>
-						</div>
-					</div>
-				</li>
-			</ul>
+				</div>
+					
+				<div class="list no-hairlines">
+					<ul>
+						<li class="item-content item-input">
+							<div class="item-inner">
+								<div class="item-input-wrap" >
+									<input placeholder="Full Name" class="" id="fullname" type="text">
+									<span class="input-clear-button"></span>
+								</div>
+							</div>
+						</li>
+						<li class="item-content item-input">
+							<div class="item-inner">
+								<div class="item-input-wrap">
+									<input placeholder="Email Adresse" class="" id="email" required data-required-message="Name is required." type="email">
+									<span class="input-clear-button"></span>
+								</div>
+							</div>
+						</li>
+						<li class="item-content item-input">
+							<div class="item-inner">
+								<div class="item-input-wrap">
+									<input placeholder="Password" class=""  type="password"
+									id="password" required data-required-message="Email is required." data-type-message="You must provide a valid email address.">
+									<span class="input-clear-button"></span>
+								</div>
+							</div>
+						</li>
+						<li class="item-content item-input">
+							<div class="item-inner">
+								<div class="item-input-wrap">
+									<input placeholder="Phone Number" class="" type="Phone Number" id="phonenumber">
+									<span class="input-clear-button"></span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<a href="" class="col button button-fill color-black" id="" >Sign up</a>
+				
+				
+				<p class="form-login-annonce">
+					<span>NEW!</span> Quick login with FaceID
+					<img src="./img/faceid.png" alt="faceid">
+				</p>
+				
+				<p class="form-login-footer">
+					Already  have an account?  <a href="/login/">Login up</a>
+				</p>
+				
+				</div>
+			</div>
+		
+		
+			
 		</div>
 		
-		<a href="/" class="col button button-fill color-black">Sign up</a>
-		
-		<p class="form-login-annonce">
-			<span>NEW!</span> Quick login with FaceID
-			<img src="./img/faceid.png" alt="faceid">
-		</p>
-		
-		<p class="form-login-footer">
-			Already  have an account?  <a href="/login/">Login up</a>
-		</p>
-		
-		</div>
-	</div>
-</div>
+
+
+	</body>
+</html>
+
+
